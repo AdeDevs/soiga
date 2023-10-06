@@ -4,7 +4,7 @@ import HomeScreen from './screens/Home';
 import AboutScreen from './screens/About';
 import ProjectsScreen from './screens/Projects';
 import ServicesScreen from './screens/Services';
-import './styles/index.css'
+import './styles/index.css';
 
 function App() {
   return (

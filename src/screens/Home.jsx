@@ -1,8 +1,8 @@
 function HomeScreen() {
     return (
-        <div>
-            home
-        </div>
+            <section>
+                <h1>Home</h1>
+            </section>
     )
 }
 

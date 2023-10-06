@@ -1,8 +1,8 @@
 function ProjectsScreen() {
     return (
-        <div>
-            Projects
-        </div>
+        <section>
+            <h1>Projects</h1>
+        </section>
     )
 }
 
