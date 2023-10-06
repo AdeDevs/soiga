@@ -1,6 +1,6 @@
 function ProjectsScreen() {
     return (
-        <section>
+        <section className="dummy">
             <h1>Projects</h1>
         </section>
     )

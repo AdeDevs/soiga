@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins&family=Young+Serif&display=swap');
 .App {
     background-color: #FCF4E9;
 }
 
-section {
+.dummy {
     display: inline-flex;
     box-sizing: border-box;
     background-color: #EFF8CB;
@@ -13,7 +13,7 @@ section {
     justify-content: center;
 }
 
-section h1 {
+.dummy h1 {
     display: inline-flex;
     align-items: center;
     width: 100%;
