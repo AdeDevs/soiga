@@ -247,7 +247,7 @@
     }
     .split-box .image-box {
         border: 0;
-        border: 0 0 2px 0;
+        border-bottom: 2px solid #000;
         height: 750px;
     }
     .split-box section {
