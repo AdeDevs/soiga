@@ -310,6 +310,65 @@
     font-weight: 300;
 }
 
+main {
+    background-color: #fdf4e9;
+}
+
+.contact-box {
+    padding: 30px 50px;
+}
+
+.contact-box h1 {
+    font-family: "Young Serif", sans-serif;
+    font-size: 30px;
+}
+
+.contact-box p {
+    width: 70%;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.contact-box form {
+    width: 40%;
+    margin: 20px 0;
+}
+
+.contact-box form input, .contact-box form textarea {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #000;
+    font-weight: 300;
+    padding: 20px 10px;
+    font-size: 17px;
+}
+
+.contact-box form input::placeholder, .contact-box form textarea::placeholder {
+    color: #000;
+}
+
+.contact-box form textarea::placeholder {
+    position: absolute;
+    bottom: 10px;
+}
+
+.contact-box form input:focus, .contact-box form textarea:focus {
+    position: relative;
+}
+
+.contact-box form textarea {
+    height: 150px;
+}
+
+.contact-box button img {
+    width: 20px;
+}
+
 @media screen and (max-width: 1300px) {
     .split-box .image-box .img-parent1 {
         width: 400px;
@@ -333,6 +392,9 @@
     }
     .solutions-box .services-box div {
         width: 280px;
+    }
+    .contact-box form {
+        width: 70%;
     }
 }
 
@@ -461,6 +523,16 @@
     .foot-box div {
         width: 50%;
     }
+    .contact-box {
+        padding: 30px 20px;
+    }
+    .contact-box p {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-box form {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -514,6 +586,11 @@
     }
     .foot-box div p {
         font-size: 7px;
+    }
+    .contact-box h1 {
+        font-size: 25px;
+        margin: 10px auto;
+        text-align: center;
     }
 }
 

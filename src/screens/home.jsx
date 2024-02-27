@@ -6,6 +6,7 @@ import Ui from "../assets/ui.png"
 import Software from "../assets/code.png"
 import Market from "../assets/promotion.png"
 import Angle from "../assets/angle.png"
+import Forward from "../assets/forward.png"
 
 function HomeScreen() {
     return (
@@ -91,8 +92,8 @@ function HomeScreen() {
                 </div>
             </header>
 
-            {/* <main>
-                <did className="projects-box">
+            <main>
+                {/* <did className="projects-box">
                     <h1>Our Completed Projects</h1>
                     <p>Check out some of the cool works we've done in the past. Every brand is unique with different products, target audience and business goals.</p>
                     <section>
@@ -110,8 +111,20 @@ function HomeScreen() {
                         </div>
                     </section>
                     <button>See All Other Projects Here <img src={Back} alt="icon" /></button>
-                </did>
-            </main> */}
+                </did> */}
+
+                <div className="contact-box">
+                    <h1>Ready To Start Your Project?</h1>
+                    <p>We're eager to hear about your project. Let's start a conversation today and embark on a journey to build something amazing together. Reach out to us below, and let's make your vision a digial reality.</p>
+                    <form action="">
+                        <input type="text" placeholder="Name" required/>
+                        <input type="email" placeholder="Email" required/>
+                        <input type="text" placeholder="Subject" required/>
+                        <textarea name="message" placeholder="Your Message" required/>
+                    </form>
+                    <button>Send Message<img src={Forward} alt="back" /></button>
+                </div>
+            </main>
         </div>
     )
 }
