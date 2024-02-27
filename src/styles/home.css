@@ -300,6 +300,7 @@
 }
 
 .foot-box div h1 {
+    font-weight: bold;
     font-size: 40px;
     font-family: "Montserrat", sans-serif;
 }
