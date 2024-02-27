@@ -2,6 +2,10 @@ import Back from "../assets/back.png"
 import Stars from "../assets/stars.png"
 import Tick from "../assets/tick.png"
 import Menu from "../assets/menu.png"
+import Ui from "../assets/ui.png"
+import Software from "../assets/code.png"
+import Market from "../assets/promotion.png"
+import Angle from "../assets/angle.png"
 
 function HomeScreen() {
     return (
@@ -41,7 +45,55 @@ function HomeScreen() {
                         </aside>
                     </section>
                 </div>
+
+                <div className="solutions-box">
+                    <h1>Services and Solutions</h1>
+                    <p>We help the most exciting brands unlock growth through our well crafted digital and innovative services.</p>
+                    <section className="services-box">
+                        <div id="ui">
+                            <aside> <img src={Ui} alt="icon" /> </aside>
+                            <h2>UI/UX Design</h2>
+                            <p>We offered tailored website design solution that perfectly suit your business or personal needs, ensuring your vision comes to life</p>
+                            <aside id="angle"> <img src={Angle} alt="angle" /> </aside>
+                        </div>
+                        <div id="software">
+                            <aside> <img src={Software} alt="icon" /> </aside>
+                            <h2>Software Development</h2>
+                            <p>We craft custom software that's as unique as your vision, delivering efficient, reliable and scalable software that drives your business forward.</p>
+                            <aside id="angle"> <img src={Angle} alt="angle" /> </aside>
+                        </div>
+                        <div id="market">
+                            <aside> <img src={Market} alt="icon" /> </aside>
+                            <h2>Marketing & Advertising</h2>
+                            <p>We specialize in crafting strategic marketing campaigns that captivate your audience, boost brand visibility, and drive results.</p>
+                            <aside id="angle"> <img src={Angle} alt="angle" /> </aside>
+                        </div>
+                    </section>
+                </div>
+
+                <div className="foot-box">
+                    <div>
+                        <h1>7+</h1>
+                        <p>Years in Business</p>
+                    </div>
+                    <div>
+                        <h1>1573</h1>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div>
+                        <h1>141</h1>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div>
+                        <h1>3</h1>
+                        <p>Industry Awards</p>
+                    </div>
+                </div>
             </header>
+
+            <main>
+                
+            </main>
         </div>
     )
 }
