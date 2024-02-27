@@ -57,7 +57,7 @@
   transform: scaleX(1);
 }
 
-.home-box header  button {
+.home-box  button {
     background-color: #fff;
     padding: 10px 20px;
     font-family: "Poppins", sans-serif;
@@ -65,11 +65,19 @@
     box-sizing: border-box;
     box-shadow: 4px 4px;
     transition: 300ms;
+    align-items: center;
+    display: flex;
 }
 
-.home-box header button:hover {
+.home-box button:hover {
     box-shadow: 1px 1px;
     cursor: pointer;
+}
+
+.home-box button img {
+    width: 10%;
+    margin-left: 20px;
+    display: block;
 }
 
 .split-box {

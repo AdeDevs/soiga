@@ -91,9 +91,27 @@ function HomeScreen() {
                 </div>
             </header>
 
-            <main>
-                
-            </main>
+            {/* <main>
+                <did className="projects-box">
+                    <h1>Our Completed Projects</h1>
+                    <p>Check out some of the cool works we've done in the past. Every brand is unique with different products, target audience and business goals.</p>
+                    <section>
+                        <div className="info-box">
+                            <section id="image-box1"></section>
+                            <section></section>
+                        </div>
+                        <div className="info-box">
+                            <section id="image-box2"></section>
+                            <section></section>
+                        </div>
+                        <div className="info-box">
+                            <section id="image-box3"></section>
+                            <section></section>
+                        </div>
+                    </section>
+                    <button>See All Other Projects Here <img src={Back} alt="icon" /></button>
+                </did>
+            </main> */}
         </div>
     )
 }
