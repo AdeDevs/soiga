@@ -7,6 +7,11 @@ import Software from "../assets/code.png"
 import Market from "../assets/promotion.png"
 import Angle from "../assets/angle.png"
 import Forward from "../assets/forward.png"
+import Chanel from "../assets/chanel.png"
+import Anila from "../assets/anila.png"
+import Force from "../assets/force.png"
+import Ninos from "../assets/ninos.png"
+import Umbro from "../assets/umbro.png"
 
 function HomeScreen() {
     return (
@@ -93,29 +98,55 @@ function HomeScreen() {
             </header>
 
             <main>
-                {/* <did className="projects-box">
+                <div className="projects-box">
                     <h1>Our Completed Projects</h1>
                     <p>Check out some of the cool works we've done in the past. Every brand is unique with different products, target audience and business goals.</p>
                     <section>
                         <div className="info-box">
+                            <section>
+                                <p id="tag1">UI/UX Design</p>
+                                <h2>Trakka, Digitalizing Healthcare Monitoring</h2>
+                                <p>Trakka is an healthcare app, ensuring every tap and swipe enhances your well-being. Experience the future of wellness with Trakka.</p>
+                                <button>See Full Project <img src={Forward} alt="icon" /></button>
+                            </section>
                             <section id="image-box1"></section>
-                            <section></section>
                         </div>
                         <div className="info-box">
                             <section id="image-box2"></section>
-                            <section></section>
+                            <section>
+                                <p id="tag2">Software Development</p>
+                                <h2>Beetaqs, Redifining Finance In Web3</h2>
+                                <p>Trakka is a crypto app, ensuring every tap and swipe enhances your finance. Experience the future of financial freedom.</p>
+                                <button>See Full Project <img src={Forward} alt="icon" /></button>
+                            </section>
+                            <section id="mob-image-box1"></section>
                         </div>
                         <div className="info-box">
+                            <section>
+                                <p id="tag3">Marketing & Advertising</p>
+                                <h2>Mastering The Art Of Digital Engagement</h2>
+                                <p>In a rapidly evolving digital landscape, this resource equips you with the knowledge and strategies to excel in the world of marketing.</p>
+                                <button>See Full Project <img src={Forward} alt="icon" /></button>
+                            </section>
                             <section id="image-box3"></section>
-                            <section></section>
                         </div>
                     </section>
-                    <button>See All Other Projects Here <img src={Back} alt="icon" /></button>
-                </did> */}
+                    <button id="last">See All Other Projects Here <img src={Forward} alt="icon" /></button>
+                    <div className="foot-box">
+                        <p>LEADING BRANDS TRUST US</p>
+                        <div>
+                        <img src={Chanel} alt="Chanel" />
+                        <img src={Force} alt="Force" />
+                        <img src={Umbro} alt="Umbro" />
+                        <img src={Anila} alt="Anila" />
+                        <img src={Ninos} alt="Ninos" />
+                        </div>
+                    </div>
+                </div>
 
                 <div className="contact-box">
                     <h1>Ready To Start Your Project?</h1>
-                    <p>We're eager to hear about your project. Let's start a conversation today and embark on a journey to build something amazing together. Reach out to us below, and let's make your vision a digial reality.</p>
+                    <p>We're eager to hear about your project. Let's start a conversation today and embark on a journey to build something amazing together. Reach out to us below, and let's make your vision a digital reality.</p>
                     <form action="">
                         <input type="text" placeholder="Name" required/>
                         <input type="email" placeholder="Email" required/>
