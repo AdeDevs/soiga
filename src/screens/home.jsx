@@ -12,6 +12,10 @@ import Anila from "../assets/anila.png"
 import Force from "../assets/force.png"
 import Ninos from "../assets/ninos.png"
 import Umbro from "../assets/umbro.png"
+import Facebook from "../assets/facebook.png"
+import Instagram from "../assets/instagram.png"
+import Linkedin from "../assets/linkedin.png"
+import Twitter from "../assets/twitter.png"
 
 function HomeScreen() {
     return (
@@ -156,6 +160,59 @@ function HomeScreen() {
                     <button>Send Message<img src={Forward} alt="back" /></button>
                 </div>
             </main>
+
+            <footer className="main-footer">
+                <div className="about-box">
+                    <section>
+                        <h4><span id="logo">S</span> Soiga.</h4>
+                        <p className="address">75a Melbourne, Churchgate St, Guilford, CT 06434, info@soiga.com</p>
+                    </section>
+                    <section className="more-box">
+                        <div>
+                            <h1>Our Solutions</h1>
+                            <ul>
+                                <li>Web Development</li>
+                                <li>Web Design</li>
+                                <li>Marketing</li>
+                                <li>Advertising</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h1>Company</h1>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Case Study</li>
+                                <li>Our Team</li>
+                                <li>Pricing Plan</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Subscribe to our newsletter</h1>
+                        <p>Subscribe to get all exclusive updates from us.</p>
+                        <form action="">
+                            <input type="email" name="mail" placeholder="Enter your email" required/>
+                            <button>Subscribe</button>
+                        </form>
+                    </section>
+                    <ul id="mobile-socials">
+                        <li><img src={Instagram} alt="instagram" /></li>
+                        <li><img src={Linkedin} alt="Linkedin" /></li>
+                        <li><img src={Twitter} alt="Twitter" /></li>
+                        <li><img src={Facebook} alt="Facebook" /></li>
+                    </ul>
+                </div>
+                <hr />
+                <div className="footer-bottom">
+                    <section>&copy; 2024 Soiga, All Rights Reserved</section>
+                    <ul id="desktop-socials">
+                        <li><img src={Instagram} alt="instagram" /></li>
+                        <li><img src={Linkedin} alt="Linkedin" /></li>
+                        <li><img src={Twitter} alt="Twitter" /></li>
+                        <li><img src={Facebook} alt="Facebook" /></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     )
 }

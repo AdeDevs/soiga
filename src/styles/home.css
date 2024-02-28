@@ -498,6 +498,131 @@ main {
     width: 20px;
 }
 
+.main-footer {
+    background-color: #202024;
+    color: #fff;
+    height: fit-content;
+    padding: 50px 70px;
+}
+
+.main-footer #logo {
+    border: 2px solid #fff;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.main-footer h4 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-footer .about-box {
+    display: flex;
+    width: 100%;
+}
+
+.main-footer .about-box h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main-footer .about-box section {
+    width: 400px;
+    margin: 10px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.address {
+    width: 50%;
+    font-size: 14px;
+}
+
+.more-box {
+    display: flex;
+}
+
+.more-box div {
+    margin: 10px auto;
+}
+
+.more-box div ul {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.more-box div ul li {
+    margin: 13px auto;
+}
+
+.main-footer form {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.main-footer form input {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-footer form button {
+    box-shadow: none;
+    border: 2px solid #000;
+    margin-right: 5px;
+    font-size: 13px;
+    background-color: #f4dbb4;
+    padding: 7px 10px;
+}
+
+.main-footer form button:hover {
+    box-shadow: none;
+}
+
+.main-footer hr {
+    height: 1px;
+    background-color: #808080;
+    border: none;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin: 20px auto;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    margin-bottom: -20px;
+}
+
+.footer-bottom ul, #mobile-socials {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-bottom img, #mobile-socials img {
+    width: 20px;
+    margin: auto 25px;
+}
+
+#mobile-socials {
+    display: none;
+    width: 100%;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1300px) {
     .split-box .image-box .img-parent1 {
         width: 400px;
@@ -546,6 +671,26 @@ main {
     .projects-box>p {
         width: 90%;
         margin: 10px auto;
+    }
+    .main-footer {
+        padding: 30px 20px;
+    }
+    .main-footer .about-box section {
+        width: 30%;
+    }
+    .more-box div {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .address {
+        width: 100%;
+    }
+    .main-footer .about-box h1 {
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    .main-footer .about-box section p {
+        font-size: 13px;
     }
 }
 
@@ -624,6 +769,12 @@ main {
     }
     #back {
         bottom: 21%;
+    }
+    .main-footer .about-box h1 {
+        font-size: 15px;
+    }
+    .more-box div ul {
+        font-size: 10px;
     }
 }
 
@@ -750,6 +901,32 @@ main {
         padding: 5px;
         width: 80px;
         margin: 20px auto;
+    }
+    .main-footer .about-box {
+        display: block;
+    }
+    .main-footer .about-box section {
+        width: 99%;
+        padding: 2px;
+    }
+    .more-box {
+        justify-content: space-between;
+    }
+    .more-box div {
+        margin: 5px;
+    }
+    #mobile-socials {
+        display: flex;
+    }
+    #desktop-socials {
+        display: none;
+    }
+    .footer-bottom {
+        justify-content: center;
+        margin-bottom: -10px;
+    }
+    .address {
+        width: 70%;
     }
 }
 
