@@ -150,6 +150,9 @@ function HomeScreen() {
 
                 <div className="review-box">
                     <h1>What Our Clients Say About Us</h1>
+                    <footer className="mob-nav-foot">
+                        <p> &#x3C; </p> <h1 id="small"> <span id="big">01</span> / 08 </h1> <p> &#x3E; </p>
+                    </footer>
                     <div>
                         <section className="client-info">
                             <h2>Bob Cowell</h2>
