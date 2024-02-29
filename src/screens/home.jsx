@@ -148,6 +148,24 @@ function HomeScreen() {
                     </div>
                 </div>
 
+                <div className="review-box">
+                    <h1>What Our Clients Say About Us</h1>
+                    <div>
+                        <section className="client-info">
+                            <h2>Bob Cowell</h2>
+                            <p id="role">CEO, ChopNow</p>
+                            <p><span>	&#x201C;</span></p>
+                            <p className="review-text">
+                                I couldn't be happier with the software development expertise provided by Soiga. Their team took our vision and turned it into a robust, user-friendly application. The quality of their work and their dedication to meeing deadlines exceeded our expectations. Our project's success is a testament to their skill and professionalism. We look forward to partenering with them again in the future.
+                            </p>
+                        </section>
+                        <section className="client-image"></section>
+                    </div>
+                    <footer className="nav-foot">
+                        <p> &#x3C; </p> <h1 id="small"> <span id="big">01</span> / 08 </h1> <p> &#x3E; </p>
+                    </footer>
+                </div>
+
                 <div className="contact-box">
                     <h1>Ready To Start Your Project?</h1>
                     <p>We're eager to hear about your project. Let's start a conversation today and embark on a journey to build something amazing together. Reach out to us below, and let's make your vision a digital reality.</p>
